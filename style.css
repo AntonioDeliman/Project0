@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#links {
+  text-align: right;
+  margin-top: 25px;
+}
+
+#link_images, #link_advanced, #link_index {
+  padding-right: 25px;
+}
+
+#search {
+  margin-top: 50px;
+  text-align: center
+}
+
+#search_box {
+  width: 50%;
+  height: 50px;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 25px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+#submit {
+  margin-top: 25px;
+  text-align: center
+}
+
+#submit_button {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#submit_btn_advanced {
+  background-color: #4787ed;
+  border: 1px solid #4787ed;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#advanced {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+#find_pages {
+  margin-top: 50px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+#search_all, #search_exact, #search_any, #search_none {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 20px;
+  padding: 5px;
+}
+
+#search_all input, #search_exact input, #search_any input, #search_none input {
+  width: 100%;
+}
+
+#advanced input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
